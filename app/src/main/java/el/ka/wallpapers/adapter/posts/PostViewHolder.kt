@@ -12,7 +12,7 @@ class PostViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
     fun setPostInfo(post: Post) {
         this.post = post
 
-        itemView.post_more.setOnClickListener { showPopup(it!!, itemView.context, this.post) }
+        itemView.post_more.setOnClickListener { showPopup(it!!, post) }
         updateUI()
     }
 
