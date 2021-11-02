@@ -1,8 +1,7 @@
-package el.ka.wallpapers.adapter
+package el.ka.wallpapers.adapter.posts
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import el.ka.wallpapers.R
 import el.ka.wallpapers.models.Post

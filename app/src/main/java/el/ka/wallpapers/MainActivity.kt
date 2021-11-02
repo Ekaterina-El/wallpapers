@@ -2,7 +2,7 @@ package el.ka.wallpapers
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import el.ka.wallpapers.adapter.PostsAdapter
+import el.ka.wallpapers.adapter.posts.PostsAdapter
 import el.ka.wallpapers.temp.posts
 import kotlinx.android.synthetic.main.activity_main.*
 
