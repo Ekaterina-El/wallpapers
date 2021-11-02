@@ -2,6 +2,7 @@ package el.ka.wallpapers.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
 import el.ka.wallpapers.R
 import el.ka.wallpapers.models.Post
@@ -11,6 +12,7 @@ class PostsAdapter : RecyclerView.Adapter<PostViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PostViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.post_item, parent, false)
+
         return PostViewHolder(view)
     }
 
